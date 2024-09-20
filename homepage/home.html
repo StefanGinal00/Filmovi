@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="home.css">
+<script src="home.js" type="text/javascript" defer></script>
+<script class="klik">
+
+  function klik(ajdi){
+     
+      var x = {
+        film: ajdi.id
+      }
+      var x_str = JSON.stringify(x);
+      localStorage.setItem("film_kliknut", x_str);
+      
+
+  }
+
+</script>
+</head>
+<body>
+    <ul>
+        <li><a href="file:///C:/Users/Stefan/Desktop/Projekat%20iz%20Veb%20Dizajna/Reziseri/reziseri.html">Reziseri</a></li>
+        <li><a href="file:///C:/Users/Stefan/Desktop/Projekat%20iz%20Veb%20Dizajna/korpa/korpa.html">Korpa</a></li>
+      
+        <a href="file:///C:/Users/Stefan/Desktop/Projekat%20iz%20Veb%20Dizajna/profil/profil.html"><img class="ikonica" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/profile-317-628249.png" alt="Profil"></a>
+
+    </ul>
+
+    <input type="text" name="pretraga" placeholder="Search...">
+    <button>Pretrazi</button>
+<div class="grid-container">
+  
+
+  <div class="item3" id="main">
+
+    
+  </div>
+
+</div>
+
+</body>
+</html>

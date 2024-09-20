@@ -1,0 +1,121 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  
+li a:hover {
+    background-color: #111;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.sivi{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 944px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+html{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/9/da/9da2ce34-fc2f-11e9-a965-8bc548c56061/5dbb63290240b.image.jpg?resize=1200%2C839);
+}
+
+img{
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+}
+.forma input[type="text"]{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	background: transparent;
+	margin-bottom: 10px;
+	height: 45px;
+}
+textarea{
+    width: 600px;
+    height: 200px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    resize: none;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+input{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 50px;
+}
+button {
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+input[type="number"]{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+    display: block;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 50%;
+}
+.dodaj{
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 47%;
+}
